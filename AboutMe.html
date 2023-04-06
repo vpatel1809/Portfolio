@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>AboutMe</title>
+    <link rel="stylesheet" href="Style.css">
+
+    <link rel="icon" type="image/x-icon"
+        href="https://c8.alamy.com/comp/2D8EJWA/initial-letter-vp-logo-or-pv-logo-vector-design-template-2D8EJWA.jpg">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./Education.html">Education</a>
+        <a href="./Work.html">Work</a>
+        <a href="./Contact.html">Contact</a>
+        <a href="./AboutMe.html">About Me</a>
+    </div><br>
+    <br>
+    <br>
+    <h1>Vraj Patel</h1>
+    <button id="btn1">Color Scheme 1</button>
+    <button id="btn2">Color Scheme 2</button>
+    <button id="btn3">Color Scheme 3</button>
+    <h2>Extra curricular Activities</h2>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2 class="minor">
+                <center>Minors in Management</center>
+            </h2>
+        </div>
+        <div class="grid-item">During my Graduation years I had done minors in Management. In addition to this I had
+            done one Internship/Co-op in Management Comapny</div>
+    </div>
+    <div class="grid-2">
+        <div class="item">
+            Every Summer I am teaching basics in Management to students who are intrested in it. Students who wish to do
+            course in summer can apply below and fill the registration form. Registration forms are given below
+        </div>
+
+    </div>
+    <br>
+    <h4>Please check if you are eligible or not for summer class</h4>
+    <form>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+        <button type="button" onclick="checkAge()">Submit</button>
+    </form>
+    <p id="message"></p>
+    <br>
+
+    <div class="container">
+        <form id="registration-form" action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Address</label>
+            <textarea id="subject" name="subject" placeholder="Your Permanent Address" style="height:100px"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+        <p id="message" class="minor"></p>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+
+    <h3>I am also passionate about nature and it's photography. Below some most beautiful photos of nature </h3>
+    <div class="gallery">
+        <a
+            href="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg"><img
+                src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg"
+                alt="Photo 1"></a>
+        <a href="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg"><img
+                src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg"
+                alt="Photo 2"></a>
+        <a href="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg"><img
+                src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg" alt="Photo 3"></a>
+        <a href="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg"><img
+                src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg" alt="Photo 4"></a>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
